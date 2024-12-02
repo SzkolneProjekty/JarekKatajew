@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+/* Header */
+header {
+    background: #370743;
+    color: #fff;
+    padding: 25px 0;
+}
+
+nav .logo {
+    margin: 20px;
+}
+
+nav .navbar {
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav .navbar li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section styles */
+.section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.job-list {
+    display: block;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    padding-left: 175px;
+}
+
+.job {
+    background: #e1e1e1;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.job h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.job:hover {
+    transform: scale(1.05);
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 16px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #370743;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  #a70acf;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #370743;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%
+}
+
+
